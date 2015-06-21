@@ -1,6 +1,6 @@
 ##Getting and Cleaning Data Project
 
-This is the project for the course "Getting and Cleaning Data" offered in the Data Science Specialisation offered by Johns Hopkins University.
+This is the project for the course "Getting and Cleaning Data" offered in the Data Science Specialisation offered by Johns Hopkins University through Coursera.
 
 ###Introduction
 The data used in this assignment is taken from the UCI Human Activity Recognition Using Smartphones Dataset study. We are to take the dataset stored in a zip file, run a data cleaning script that creates a tidy data file and upload the tidy data to the assignment page. Also this READ ME and a Code Book (together with the processing script) are to be uploaded to a repository in our Github account and a link to that account is to be provided on the assignment page.
