@@ -13,8 +13,14 @@ list.files(path_data, recursive=TRUE)
 
 #Now we combine the test and train datasets into one file for x, y and Subject each respectively.
 
-yTest  <- read.table(file.path(path_data, "test" , "Y_test.txt" ),header = FALSE)
-yTrain <- read.table(file.path(path_data, "train", "Y_train.txt"),header = FALSE)
+yTest  <- read.table(file.path(path_data, "test" , "y_test.txt" ),header = FALSE)
+yTrain <- read.table(file.path(path_data, "train", "y_train.txt"),header = FALSE)
+
+xTest  <- read.table(file.path(path_data, "test" , "X_test.txt" ),header = FALSE)
+xTrain <- read.table(file.path(path_data, "train", "X_train.txt"),header = FALSE)
+
+SubjectTest  <- read.table(file.path(path_data, "test" , "subject_test.txt" ),header = FALSE)
+SubjectTrain <- read.table(file.path(path_data, "train", "subject_train.txt"),header = FALSE)
 
 Subject <- rbind(SubjectTest, SubjectTrain)
 x <- rbind(xTest, xTrain)
